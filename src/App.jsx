@@ -1,7 +1,10 @@
+import Header  from "./Header"
 function App(){
   return(
-
-    <div>Hello</div>
+    <div>
+      <Header />
+      <h1>Hello</h1>
+      </div>
   )
 }
 
