@@ -1,10 +1,13 @@
+import Profile from "./Excercise"
 import Header  from "./Header"
+import { Image } from "./Excercise"
 function App(){
-  console.log(sum())
+  // console.log(sum())
   return(
     <div>
       <Header />
-      <h1>Hello</h1>
+      <Profile></Profile>
+      <Image></Image>
       <Example></Example>
       </div>
   )
@@ -16,8 +19,6 @@ function Example(){
   )
 }
 
-function sum(){
-  return 10 + 10
-}
+
 
 export default App 
